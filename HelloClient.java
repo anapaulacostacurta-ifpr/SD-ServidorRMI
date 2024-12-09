@@ -7,6 +7,7 @@ public class HelloClient {
       try {
          HelloWorld obj = (HelloWorld)Naming.lookup("//" + args[0] + "/HelloWorld"); 
          System.out.println("Mensagem do Servidor: " + obj.hello()); 
+         System.out.println("Mensagem do Servidor: " + obj.hello2()); 
       } catch (Exception ex) {
          System.out.println("Exception: " + ex.getMessage());
       } 

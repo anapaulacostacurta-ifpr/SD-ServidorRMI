@@ -23,4 +23,9 @@ public String hello() throws RemoteException {
    return "Hello!!!";
 }
 
+public String hello2() throws RemoteException {
+   System.out.println("Executando Olá()");
+   return "Olá!!!";
+}
+
 }
